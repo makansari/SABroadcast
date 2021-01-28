@@ -25,6 +25,12 @@
 
 </receiver>
 
+        <receiver android:name=".MyRecData">
+            <intent-filter>
+                <action android:name="com.ansari"></action>
+            </intent-filter>
+        </receiver>
+
 
 
 
